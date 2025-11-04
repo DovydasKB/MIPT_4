@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MIPT4</string>
+    <string name="delete">Delete</string>
+    <string name="storage_json">Storage: JSON</string>
+    <string name="create_note">Create_note</string>
+    <string name="delete_note">Delete note</string>
+    <string name="add_note">Add Note</string>
+    <string name="create_new_note">Create new note</string>
+    <string name="note_name">Note name</string>
+    <string name="content">Content</string>
+    <string name="json">JSON</string>
+    <string name="xml">XML</string>
+    <string name="save">Save</string>
+    <string-array name="storage_options">
+        <item>JSON</item>
+        <item>XML</item>
+    </string-array>
+</resources>

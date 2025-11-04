@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="369dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="16dp"
+        tools:ignore="VisualLintBounds" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/storage_switch"
+        android:layout_width="168dp"
+        android:layout_height="63dp"
+        android:text="@string/storage_json" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        tools:ignore="VisualLintButtonSize" />
+</LinearLayout>
